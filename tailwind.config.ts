@@ -8,13 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        active: "#71A9DB",
+        main: "#3D80CB",
+        hover: "#FFD6B3",
+        point: "#FFBF6B",
+      },
+      screens: {
+        sm: { min: "390px", max: "819px" },
+        md: { min: "820px", max: "1023px" },
+        lg: { min: "1080px" },
       },
     },
+    plugins: [],
   },
-  plugins: [],
 };
+
 export default config;
