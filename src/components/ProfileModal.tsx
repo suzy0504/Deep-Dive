@@ -31,7 +31,7 @@ const ProfileModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
       <div className="bg-white p-6 rounded-lg w-10/12 md:w-1/2 lg:w-1/3">
-        <h2 className="text-2xl mb-4">유저 정보 입력</h2>
+        <h2 className="text-2xl mb-4 font-bold">회원가입</h2>
         <form>
           <div className="mb-4">
             <label className="block text-sm font-bold mb-2" htmlFor="username">
@@ -69,13 +69,13 @@ const ProfileModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
             <button
               onClick={handleSignUp}
               type="button"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="bg-main hover:bg-active text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             >
               저장
             </button>
             <button
               type="button"
-              className="ml-4 bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="ml-4 bg-point hover:bg-hover text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               onClick={onClose}
             >
               취소

@@ -9,15 +9,15 @@ export const validateForm = ({
   password: string;
   nickname: string;
 }) => {
-  // if (nickname !== null && nickname.trim() === "") {
-  //   Swal.fire({
-  //     title: "오류",
-  //     text: "닉네임을 입력하세요.",
-  //     icon: "error",
-  //     confirmButtonText: "확인",
-  //   });
-  //   return false;
-  // }
+  if (nickname !== null && nickname.trim() === "") {
+    Swal.fire({
+      title: "오류",
+      text: "닉네임을 입력하세요.",
+      icon: "error",
+      confirmButtonText: "확인",
+    });
+    return false;
+  }
   if (!email || !password) {
     Swal.fire({
       title: "오류",

@@ -2,7 +2,7 @@ const FishData = [
   // 블루홀 초입
   {
     name: "흰동가리",
-    image: "/Img/fishImg/흰동가리.png",
+    image: "/fishImg/흰동가리.png",
     rank: "1",
     weight: "0.2",
     activityTime: "낮",
@@ -16,7 +16,7 @@ const FishData = [
   },
   {
     name: "콤버",
-    image: "/Img/fishImg/콤버.png",
+    image: "/fishImg/콤버.png",
     rank: "1",
     weight: "0.2",
     activityTime: "낮",
@@ -30,7 +30,7 @@ const FishData = [
   },
   {
     name: "지중해카디널피쉬",
-    image: "/Img/fishImg/지중해카디널피쉬.png",
+    image: "/fishImg/지중해카디널피쉬.png",
     rank: "1",
     weight: "0.2",
     activityTime: "낮",
@@ -44,7 +44,7 @@ const FishData = [
   },
   {
     name: "금강바리",
-    image: "/Img/fishImg/금강바리.png",
+    image: "/fishImg/금강바리.png",
     rank: "1",
     weight: "0.3",
     activityTime: "낮",
@@ -58,7 +58,7 @@ const FishData = [
   },
   {
     name: "안개나비고기",
-    image: "/Img/fishImg/안개나비고기.png",
+    image: "/fishImg/안개나비고기.png",
     weight: "0.4",
     activityTime: "낮",
     CaptureMethod: {
@@ -71,7 +71,7 @@ const FishData = [
   },
   {
     name: "옐로우탱",
-    image: "/Img/fishImg/옐로우탱.png",
+    image: "/fishImg/옐로우탱.png",
     rank: "1",
     weight: "0.4",
     activityTime: "낮",
@@ -85,7 +85,7 @@ const FishData = [
   },
   {
     name: "사르파살파",
-    image: "/Img/fishImg/사르파살파.png",
+    image: "/fishImg/사르파살파.png",
     rank: "1",
     weight: "0.4",
     activityTime: "낮",
@@ -99,7 +99,7 @@ const FishData = [
   },
   {
     name: "원반제비활치",
-    image: "/Img/fishImg/원반제비활치.png",
+    image: "/fishImg/원반제비활치.png",
     rank: "1",
     weight: "0.3",
     activityTime: "낮",
@@ -113,7 +113,7 @@ const FishData = [
   },
   {
     name: "블루탱",
-    image: "/Img/fishImg/블루탱.png",
+    image: "/fishImg/블루탱.png",
     weight: "0.5",
     activityTime: "낮",
     CaptureMethod: {
@@ -126,7 +126,7 @@ const FishData = [
   },
   {
     name: "무지개놀래기",
-    image: "/Img/fishImg/무지개놀래기.png",
+    image: "/fishImg/무지개놀래기.png",
     rank: "1",
     weight: "0.6",
     activityTime: "낮",
@@ -140,7 +140,7 @@ const FishData = [
   },
   {
     name: "배주름쥐치",
-    image: "/Img/fishImg/배주름쥐치.png",
+    image: "/fishImg/배주름쥐치.png",
     rank: "1",
     weight: "0.7",
     activityTime: "낮",
@@ -154,7 +154,7 @@ const FishData = [
   },
   {
     name: "빨판매가리",
-    image: "/Img/fishImg/빨판매가리.png",
+    image: "/fishImg/빨판매가리.png",
     rank: "1",
     weight: "0.8",
     activityTime: "낮",
@@ -168,7 +168,7 @@ const FishData = [
   },
   {
     name: "황등어",
-    image: "/Img/fishImg/황등어.png",
+    image: "/fishImg/황등어.png",
     rank: "1",
     weight: "0.8",
     activityTime: "낮",
@@ -182,7 +182,7 @@ const FishData = [
   },
   {
     name: "오네이트놀래기",
-    image: "/Img/fishImg/오네이트놀래기.png",
+    image: "/fishImg/오네이트놀래기.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -196,7 +196,7 @@ const FishData = [
   },
   {
     name: "깃털제비활치",
-    image: "/Img/fishImg/깃털제비활치.png",
+    image: "/fishImg/깃털제비활치.png",
     rank: "1",
     weight: "0.8",
     activityTime: "낮",
@@ -210,7 +210,7 @@ const FishData = [
   },
   {
     name: "지중해비늘돔",
-    image: "/Img/fishImg/지중해비늘돔.png",
+    image: "/fishImg/지중해비늘돔.png",
     rank: "1",
     weight: "2",
     activityTime: "낮",
@@ -224,7 +224,7 @@ const FishData = [
   },
   {
     name: "붉은이빨쥐치",
-    image: "/Img/fishImg/붉은이빨쥐치.png",
+    image: "/fishImg/붉은이빨쥐치.png",
     rank: "1",
     weight: "1",
     activityTime: "낮",
@@ -238,7 +238,7 @@ const FishData = [
   },
   {
     name: "블랙스내퍼",
-    image: "/Img/fishImg/블랙스내퍼.png",
+    image: "/fishImg/블랙스내퍼.png",
     rank: "1",
     weight: "1",
     activityTime: "낮",
@@ -252,7 +252,7 @@ const FishData = [
   },
   {
     name: "버팔로피쉬",
-    image: "/Img/fishImg/버팔로피쉬.png",
+    image: "/fishImg/버팔로피쉬.png",
     weight: "1.8",
     activityTime: "낮",
     CaptureMethod: {
@@ -265,7 +265,7 @@ const FishData = [
   },
   {
     name: "배럴해파리",
-    image: "/Img/fishImg/배럴해파리.png",
+    image: "/fishImg/배럴해파리.png",
     rank: "2",
     weight: "1",
     activityTime: "낮",
@@ -279,7 +279,7 @@ const FishData = [
   },
   {
     name: "달걀프라이해파리",
-    image: "/Img/fishImg/달걀프라이해파리.png",
+    image: "/fishImg/달걀프라이해파리.png",
     weight: "1",
     activityTime: "낮",
     CaptureMethod: {
@@ -291,7 +291,7 @@ const FishData = [
   },
   {
     name: "백기흉상어",
-    image: "/Img/fishImg/백기흉상어.png",
+    image: "/fishImg/백기흉상어.png",
     rank: "4",
     weight: "2.5",
     activityTime: "항상",
@@ -309,7 +309,7 @@ const FishData = [
   },
   {
     name: "꺼끌복",
-    image: "/Img/fishImg/꺼끌복.png",
+    image: "/fishImg/꺼끌복.png",
     rank: "3",
     weight: "3",
     activityTime: "낮",
@@ -324,7 +324,7 @@ const FishData = [
   },
   {
     name: "쏠배감펭",
-    image: "/Img/fishImg/쏠배감펭.png",
+    image: "/fishImg/쏠배감펭.png",
     rank: "2",
     weight: "1.5",
     activityTime: "낮",
@@ -339,7 +339,7 @@ const FishData = [
   },
   {
     name: "타이탄트리거피쉬",
-    image: "/Img/fishImg/타이탄트리거피쉬.png",
+    image: "/fishImg/타이탄트리거피쉬.png",
     rank: "2",
     weight: "3.8",
     activityTime: "낮",
@@ -353,7 +353,7 @@ const FishData = [
   },
   {
     name: "참다랑어",
-    image: "/Img/fishImg/참다랑어.png",
+    image: "/fishImg/참다랑어.png",
     rank: "7",
     weight: "8",
     activityTime: "낮",
@@ -371,7 +371,7 @@ const FishData = [
   },
   {
     name: "황다랑어",
-    image: "/Img/fishImg/황다랑어.png",
+    image: "/fishImg/황다랑어.png",
     rank: "7",
     weight: "6",
     activityTime: "낮",
@@ -389,7 +389,7 @@ const FishData = [
   },
   {
     name: "라마엔젤피쉬",
-    image: "/Img/fishImg/라마엔젤피쉬.png",
+    image: "/fishImg/라마엔젤피쉬.png",
     rank: "1",
     weight: "0.2",
     activityTime: "낮",
@@ -403,7 +403,7 @@ const FishData = [
   },
   {
     name: "혹돔",
-    image: "/Img/fishImg/혹돔.png",
+    image: "/fishImg/혹돔.png",
     rank: "5",
     weight: "4.3",
     activityTime: "낮",
@@ -417,7 +417,7 @@ const FishData = [
   },
   {
     name: "혹황제엔젤피쉬돔",
-    image: "/Img/fishImg/황제엔젤피쉬.png",
+    image: "/fishImg/황제엔젤피쉬.png",
     rank: "1",
     weight: "0.4",
     activityTime: "낮",
@@ -431,7 +431,7 @@ const FishData = [
   },
   {
     name: "노랑가오리",
-    image: "/Img/fishImg/노랑가오리.png",
+    image: "/fishImg/노랑가오리.png",
     rank: "6",
     weight: "3",
     activityTime: "낮",
@@ -445,7 +445,7 @@ const FishData = [
   },
   {
     name: "마블전기가오리",
-    image: "/Img/fishImg/마블전기가오리.png",
+    image: "/fishImg/마블전기가오리.png",
     rank: "6",
     weight: "3",
     activityTime: "낮",
@@ -460,7 +460,7 @@ const FishData = [
   },
   {
     name: "흰다리새우",
-    image: "/Img/fishImg/흰다리새우.png",
+    image: "/fishImg/흰다리새우.png",
     rank: "5",
     weight: "0.1",
     activityTime: "낮",
@@ -474,7 +474,7 @@ const FishData = [
   },
   {
     name: "쏠종개",
-    image: "/Img/fishImg/쏠종개.png",
+    image: "/fishImg/쏠종개.png",
     rank: "5",
     weight: "0.3",
     activityTime: "낮",
@@ -488,7 +488,7 @@ const FishData = [
   },
   {
     name: "보라성게",
-    image: "/Img/fishImg/보라성게.png",
+    image: "/fishImg/보라성게.png",
     rank: "5",
     weight: "1",
     activityTime: "낮",
@@ -500,7 +500,7 @@ const FishData = [
   },
   {
     name: "청상아리",
-    image: "/Img/fishImg/청상아리.png",
+    image: "/fishImg/청상아리.png",
     rank: "8",
     weight: "9",
     activityTime: "낮",
@@ -514,7 +514,7 @@ const FishData = [
   },
   {
     name: "청새치",
-    image: "/Img/fishImg/청새치.png",
+    image: "/fishImg/청새치.png",
     rank: "8",
     weight: "7.5",
     activityTime: "낮",
@@ -528,7 +528,7 @@ const FishData = [
   },
   {
     name: "환도상어",
-    image: "/Img/fishImg/환도상어.png",
+    image: "/fishImg/환도상어.png",
     rank: "9",
     weight: "9.5",
     activityTime: "낮",
@@ -543,7 +543,7 @@ const FishData = [
   },
   {
     name: "방사쏠베감펭",
-    image: "/Img/fishImg/방사쏠베감펭.png",
+    image: "/fishImg/방사쏠베감펭.png",
     rank: "4",
     weight: "1.7",
     activityTime: "밤",
@@ -557,7 +557,7 @@ const FishData = [
   },
   {
     name: "롱스파인 다람쥐고기",
-    image: "/Img/fishImg/롱스파인 다람쥐고기.png",
+    image: "/fishImg/롱스파인 다람쥐고기.png",
     rank: "5",
     weight: "0.4",
     activityTime: "밤",
@@ -571,7 +571,7 @@ const FishData = [
   },
   {
     name: "가시복",
-    image: "/Img/fishImg/가시복.png",
+    image: "/fishImg/가시복.png",
     rank: "5",
     weight: "3.5",
     activityTime: "밤",
@@ -585,7 +585,7 @@ const FishData = [
   },
   {
     name: "상자해파리",
-    image: "/Img/fishImg/상자해파리.png",
+    image: "/fishImg/상자해파리.png",
     rank: "5",
     weight: "5",
     activityTime: "밤",
@@ -599,7 +599,7 @@ const FishData = [
   },
   {
     name: "곰치",
-    image: "/Img/fishImg/곰치.png",
+    image: "/fishImg/곰치.png",
     rank: "5",
     weight: "9",
     activityTime: "항상",
@@ -614,7 +614,7 @@ const FishData = [
   },
   {
     name: "흑기흉상어",
-    image: "/Img/fishImg/흑기흉상어.png",
+    image: "/fishImg/흑기흉상어.png",
     rank: "6",
     weight: "2.5",
     activityTime: "밤",
@@ -628,7 +628,7 @@ const FishData = [
   },
   {
     name: "무태상어",
-    image: "/Img/fishImg/무태상어.png",
+    image: "/fishImg/무태상어.png",
     rank: "6",
     weight: "4",
     activityTime: "밤",
@@ -642,7 +642,7 @@ const FishData = [
   },
   {
     name: "지브라상어",
-    image: "/Img/fishImg/지브라상어.png",
+    image: "/fishImg/지브라상어.png",
     rank: "8",
     weight: "10.5",
     activityTime: "밤",
@@ -658,7 +658,7 @@ const FishData = [
   // 중간수역
   {
     name: "블루헤드타일피쉬",
-    image: "/Img/fishImg/블루헤드타일피쉬.png",
+    image: "/fishImg/블루헤드타일피쉬.png",
     rank: "1",
     weight: "0.2",
     activityTime: "낮",
@@ -672,7 +672,7 @@ const FishData = [
   },
   {
     name: "무당씬벵이",
-    image: "/Img/fishImg/무당씬벵이.png",
+    image: "/fishImg/무당씬벵이.png",
     rank: "1",
     weight: "0.3",
     activityTime: "낮",
@@ -686,7 +686,7 @@ const FishData = [
   },
   {
     name: "페인티드콤버",
-    image: "/Img/fishImg/페인티드콤버.png",
+    image: "/fishImg/페인티드콤버.png",
     rank: "1",
     weight: "0.4",
     activityTime: "낮",
@@ -700,7 +700,7 @@ const FishData = [
   },
   {
     name: "새가라지",
-    image: "/Img/fishImg/새가라지.png",
+    image: "/fishImg/새가라지.png",
     rank: "1",
     weight: "0.6",
     activityTime: "낮",
@@ -714,7 +714,7 @@ const FishData = [
   },
   {
     name: "노랑촉수",
-    image: "/Img/fishImg/노랑촉수.png",
+    image: "/fishImg/노랑촉수.png",
     rank: "1",
     weight: "0.7",
     activityTime: "낮",
@@ -728,7 +728,7 @@ const FishData = [
   },
   {
     name: "풀가라지",
-    image: "/Img/fishImg/풀가라지.png",
+    image: "/fishImg/풀가라지.png",
     rank: "1",
     weight: "0.8",
     activityTime: "낮",
@@ -742,7 +742,7 @@ const FishData = [
   },
   {
     name: "청줄바리",
-    image: "/Img/fishImg/청줄바리.png",
+    image: "/fishImg/청줄바리.png",
     rank: "2",
     weight: "1.1",
     activityTime: "낮",
@@ -756,7 +756,7 @@ const FishData = [
   },
   {
     name: "줄전갱이",
-    image: "/Img/fishImg/줄전갱이.png",
+    image: "/fishImg/줄전갱이.png",
     rank: "2",
     weight: "3",
     activityTime: "낮",
@@ -770,7 +770,7 @@ const FishData = [
   },
   {
     name: "무늬바리",
-    image: "/Img/fishImg/무늬바리.png",
+    image: "/fishImg/무늬바리.png",
     rank: "2",
     weight: "3",
     activityTime: "낮",
@@ -784,7 +784,7 @@ const FishData = [
   },
   {
     name: "갈쥐치",
-    image: "/Img/fishImg/갈쥐치.png",
+    image: "/fishImg/갈쥐치.png",
     rank: "2",
     weight: "3.5",
     activityTime: "낮",
@@ -798,7 +798,7 @@ const FishData = [
   },
   {
     name: "대서양보니토",
-    image: "/Img/fishImg/대서양보니토.png",
+    image: "/fishImg/대서양보니토.png",
     rank: "2",
     weight: "4",
     activityTime: "낮",
@@ -812,7 +812,7 @@ const FishData = [
   },
   {
     name: "흑점줄전갱이",
-    image: "/Img/fishImg/흑점줄전갱이.png",
+    image: "/fishImg/흑점줄전갱이.png",
     rank: "2",
     weight: "6",
     activityTime: "낮",
@@ -827,7 +827,7 @@ const FishData = [
   },
   {
     name: "갑오징어",
-    image: "/Img/fishImg/갑오징어.png",
+    image: "/fishImg/갑오징어.png",
     rank: "2",
     weight: "4",
     activityTime: "낮",
@@ -842,7 +842,7 @@ const FishData = [
   },
   {
     name: "머구리농어",
-    image: "/Img/fishImg/머구리농어.png",
+    image: "/fishImg/머구리농어.png",
     rank: "13",
     weight: "8",
     activityTime: "낮",
@@ -856,7 +856,7 @@ const FishData = [
   },
   {
     name: "대서양고등어",
-    image: "/Img/fishImg/대서양고등어.png",
+    image: "/fishImg/대서양고등어.png",
     rank: "3",
     weight: "3.5",
     activityTime: "낮",
@@ -870,7 +870,7 @@ const FishData = [
   },
   {
     name: "무명갈전갱이",
-    image: "/Img/fishImg/무명갈전갱이.png",
+    image: "/fishImg/무명갈전갱이.png",
     rank: "4",
     weight: "5",
     activityTime: "낮",
@@ -885,7 +885,7 @@ const FishData = [
   },
   {
     name: "뱀상어",
-    image: "/Img/fishImg/뱀상어.png",
+    image: "/fishImg/뱀상어.png",
     rank: "6",
     weight: "15",
     activityTime: "항상",
@@ -900,7 +900,7 @@ const FishData = [
   },
   {
     name: "큰꼬치고기",
-    image: "/Img/fishImg/큰꼬치고기.png",
+    image: "/fishImg/큰꼬치고기.png",
     rank: "3",
     weight: "7",
     activityTime: "낮",
@@ -914,7 +914,7 @@ const FishData = [
   },
   {
     name: "동갈삼치",
-    image: "/Img/fishImg/동갈삼치.png",
+    image: "/fishImg/동갈삼치.png",
     rank: "3",
     weight: "8",
     activityTime: "낮",
@@ -928,7 +928,7 @@ const FishData = [
   },
   {
     name: "톱상어",
-    image: "/Img/fishImg/톱상어.png",
+    image: "/fishImg/톱상어.png",
     rank: "6",
     weight: "6.5",
     activityTime: "항상",
@@ -942,7 +942,7 @@ const FishData = [
   },
   {
     name: "블랙타이거새우",
-    image: "/Img/fishImg/블랙타이거새우.png",
+    image: "/fishImg/블랙타이거새우.png",
     rank: "5",
     weight: "0.5",
     activityTime: "낮",
@@ -956,7 +956,7 @@ const FishData = [
   },
   {
     name: "귀상어",
-    image: "/Img/fishImg/귀상어.png",
+    image: "/fishImg/귀상어.png",
     rank: "9",
     weight: "13",
     activityTime: "낮",
@@ -973,7 +973,7 @@ const FishData = [
   // 종유동굴
   {
     name: "흰점박이해파리",
-    image: "/Img/fishImg/흰점박이해파리.png",
+    image: "/fishImg/흰점박이해파리.png",
     rank: "2",
     weight: "1",
     activityTime: "낮",
@@ -987,7 +987,7 @@ const FishData = [
   },
   {
     name: "대서양아귀",
-    image: "/Img/fishImg/대서양아귀.png",
+    image: "/fishImg/대서양아귀.png",
     rank: "4",
     weight: "5.5",
     activityTime: "낮",
@@ -1003,7 +1003,7 @@ const FishData = [
   // 난파선 내부
   {
     name: "갈라파고스붉은게",
-    image: "/Img/fishImg/갈라파고스붉은게.png",
+    image: "/fishImg/갈라파고스붉은게.png",
     rank: "7",
     weight: "4",
     activityTime: "낮",
@@ -1016,7 +1016,7 @@ const FishData = [
   },
   {
     name: "돛새치",
-    image: "/Img/fishImg/돛새치.png",
+    image: "/fishImg/돛새치.png",
     rank: "9",
     weight: "9",
     activityTime: "낮",
@@ -1033,7 +1033,7 @@ const FishData = [
   // 블루홀 중간수역 밤
   {
     name: "흰보리새우",
-    image: "/Img/fishImg/흰보리새우.png",
+    image: "/fishImg/흰보리새우.png",
     rank: "7",
     weight: "0.1",
     activityTime: "항상",
@@ -1046,7 +1046,7 @@ const FishData = [
   },
   {
     name: "검정핀꼬치고기",
-    image: "/Img/fishImg/검정핀꼬치고기.png",
+    image: "/fishImg/검정핀꼬치고기.png",
     rank: "5",
     weight: "5.5",
     activityTime: "밤",
@@ -1060,7 +1060,7 @@ const FishData = [
   },
   {
     name: "화살오징어",
-    image: "/Img/fishImg/화살오징어.png",
+    image: "/fishImg/화살오징어.png",
     rank: "5",
     weight: "4.6",
     activityTime: "밤",
@@ -1074,7 +1074,7 @@ const FishData = [
   },
   {
     name: "훔볼트오징어",
-    image: "/Img/fishImg/훔볼트오징어.png",
+    image: "/fishImg/훔볼트오징어.png",
     rank: "8",
     weight: "7.5",
     activityTime: "밤",
@@ -1088,7 +1088,7 @@ const FishData = [
   },
   {
     name: "데빌스콜피온피쉬",
-    image: "/Img/fishImg/데빌스콜피온피쉬.png",
+    image: "/fishImg/데빌스콜피온피쉬.png",
     rank: "8",
     weight: "3",
     activityTime: "밤",
@@ -1104,7 +1104,7 @@ const FishData = [
   // 블루홀 심해
   {
     name: "앵무조개",
-    image: "/Img/fishImg/앵무조개.png",
+    image: "/fishImg/앵무조개.png",
     rank: "5",
     weight: "1",
     activityTime: "낮",
@@ -1117,7 +1117,7 @@ const FishData = [
   },
   {
     name: "귀신고기",
-    image: "/Img/fishImg/귀신고기.png",
+    image: "/fishImg/귀신고기.png",
     rank: "5",
     weight: "3",
     activityTime: "낮",
@@ -1131,7 +1131,7 @@ const FishData = [
   },
   {
     name: "주름상어",
-    image: "/Img/fishImg/주름상어.png",
+    image: "/fishImg/주름상어.png",
     rank: "7",
     weight: "8.5",
     activityTime: "낮",
@@ -1146,7 +1146,7 @@ const FishData = [
   },
   {
     name: "푸렁통구멍",
-    image: "/Img/fishImg/푸렁통구멍.png",
+    image: "/fishImg/푸렁통구멍.png",
     rank: "6",
     weight: "5",
     activityTime: "낮",
@@ -1160,7 +1160,7 @@ const FishData = [
   },
   {
     name: "코은상어",
-    image: "/Img/fishImg/코은상어.png",
+    image: "/fishImg/코은상어.png",
     rank: "6",
     weight: "5",
     activityTime: "낮",
@@ -1175,7 +1175,7 @@ const FishData = [
   },
   {
     name: "키다리게",
-    image: "/Img/fishImg/키다리게.png",
+    image: "/fishImg/키다리게.png",
     rank: "6",
     weight: "7.5",
     activityTime: "낮",
@@ -1189,7 +1189,7 @@ const FishData = [
   },
   {
     name: "메가마우스상어",
-    image: "/Img/fishImg/메가마우스상어.png",
+    image: "/fishImg/메가마우스상어.png",
     rank: "7",
     weight: "11.5",
     activityTime: "낮",
@@ -1204,7 +1204,7 @@ const FishData = [
   },
   {
     name: "쿠키커터상어",
-    image: "/Img/fishImg/쿠키커터상어.png",
+    image: "/fishImg/쿠키커터상어.png",
     rank: "6",
     weight: "5",
     activityTime: "낮",
@@ -1218,7 +1218,7 @@ const FishData = [
   },
   {
     name: "클리오네",
-    image: "/Img/fishImg/클리오네.png",
+    image: "/fishImg/클리오네.png",
     rank: "5",
     weight: "0.1",
     activityTime: "낮",
@@ -1231,7 +1231,7 @@ const FishData = [
   },
   {
     name: "점씬벵이",
-    image: "/Img/fishImg/점씬벵이.png",
+    image: "/fishImg/점씬벵이.png",
     rank: "5",
     weight: "5",
     activityTime: "낮",
@@ -1245,7 +1245,7 @@ const FishData = [
   },
   {
     name: "분홍꼼치",
-    image: "/Img/fishImg/분홍꼼치.png",
+    image: "/fishImg/분홍꼼치.png",
     rank: "5",
     weight: "5",
     activityTime: "낮",
@@ -1259,7 +1259,7 @@ const FishData = [
   },
   {
     name: "벤텐어",
-    image: "/Img/fishImg/벤텐어.png",
+    image: "/fishImg/벤텐어.png",
     rank: "5",
     weight: "5",
     activityTime: "낮",
@@ -1273,7 +1273,7 @@ const FishData = [
   },
   {
     name: "불뚝복",
-    image: "/Img/fishImg/불뚝복.png",
+    image: "/fishImg/불뚝복.png",
     rank: "5",
     weight: "5",
     activityTime: "낮",
@@ -1287,7 +1287,7 @@ const FishData = [
   },
   {
     name: "감투빗해파리",
-    image: "/Img/fishImg/감투빗해파리.png",
+    image: "/fishImg/감투빗해파리.png",
     rank: "6",
     weight: "7",
     activityTime: "낮",
@@ -1301,7 +1301,7 @@ const FishData = [
   },
   {
     name: "붉은배빗해파리",
-    image: "/Img/fishImg/붉은배빗해파리.png",
+    image: "/fishImg/붉은배빗해파리.png",
     rank: "6",
     weight: "7",
     activityTime: "낮",
@@ -1314,7 +1314,7 @@ const FishData = [
   },
   {
     name: "금눈돔",
-    image: "/Img/fishImg/금눈돔.png",
+    image: "/fishImg/금눈돔.png",
     rank: "5",
     weight: "3",
     activityTime: "낮",
@@ -1330,7 +1330,7 @@ const FishData = [
   // 빙하통로
   {
     name: "공작오징어",
-    image: "/Img/fishImg/공작오징어.png",
+    image: "/fishImg/공작오징어.png",
     rank: "7",
     weight: "3.5",
     activityTime: "낮",
@@ -1344,7 +1344,7 @@ const FishData = [
   },
   {
     name: "덤보문어",
-    image: "/Img/fishImg/덤보문어.png",
+    image: "/fishImg/덤보문어.png",
     rank: "7",
     weight: "4",
     activityTime: "낮",
@@ -1358,7 +1358,7 @@ const FishData = [
   },
   {
     name: "배럴아이",
-    image: "/Img/fishImg/배럴아이.png",
+    image: "/fishImg/배럴아이.png",
     rank: "7",
     weight: "3",
     activityTime: "낮",
@@ -1372,7 +1372,7 @@ const FishData = [
   },
   {
     name: "블롭피쉬",
-    image: "/Img/fishImg/블롭피쉬.png",
+    image: "/fishImg/블롭피쉬.png",
     rank: "7",
     weight: "7.5",
     activityTime: "낮",
@@ -1386,7 +1386,7 @@ const FishData = [
   },
   {
     name: "흡혈오징어",
-    image: "/Img/fishImg/흡혈오징어.png",
+    image: "/fishImg/흡혈오징어.png",
     rank: "8",
     weight: "6",
     activityTime: "낮",
@@ -1401,7 +1401,7 @@ const FishData = [
   },
   {
     name: "펠리칸장어",
-    image: "/Img/fishImg/펠리칸장어.png",
+    image: "/fishImg/펠리칸장어.png",
     rank: "9",
     weight: "8",
     activityTime: "낮",
@@ -1418,7 +1418,7 @@ const FishData = [
   // 빙하지역
   {
     name: "극지대구",
-    image: "/Img/fishImg/극지대구.png",
+    image: "/fishImg/극지대구.png",
     rank: "8",
     weight: "5",
     activityTime: "낮",
@@ -1432,7 +1432,7 @@ const FishData = [
   },
   {
     name: "남극꼼치",
-    image: "/Img/fishImg/남극꼼치.png",
+    image: "/fishImg/남극꼼치.png",
     rank: "8",
     weight: "2",
     activityTime: "낮",
@@ -1446,7 +1446,7 @@ const FishData = [
   },
   {
     name: "남극문어",
-    image: "/Img/fishImg/남극문어.png",
+    image: "/fishImg/남극문어.png",
     rank: "9",
     weight: "7.5",
     activityTime: "낮",
@@ -1460,7 +1460,7 @@ const FishData = [
   },
   {
     name: "그린란드상어",
-    image: "/Img/fishImg/그린란드상어.png",
+    image: "/fishImg/그린란드상어.png",
     rank: "9",
     weight: "20",
     activityTime: "낮",
@@ -1475,7 +1475,7 @@ const FishData = [
   },
   {
     name: "북극등가시치",
-    image: "/Img/fishImg/북극등가시치.png",
+    image: "/fishImg/북극등가시치.png",
     rank: "8",
     weight: "3",
     activityTime: "낮",
@@ -1489,7 +1489,7 @@ const FishData = [
   },
   {
     name: "비악상어",
-    image: "/Img/fishImg/비악상어.png",
+    image: "/fishImg/비악상어.png",
     rank: "9",
     weight: "13.5",
     activityTime: "낮",
@@ -1504,7 +1504,7 @@ const FishData = [
   },
   {
     name: "아이스피쉬",
-    image: "/Img/fishImg/아이스피쉬.png",
+    image: "/fishImg/아이스피쉬.png",
     rank: "8",
     weight: "5.5",
     activityTime: "낮",
@@ -1518,7 +1518,7 @@ const FishData = [
   },
   {
     name: "열빙어",
-    image: "/Img/fishImg/열빙어.png",
+    image: "/fishImg/열빙어.png",
     rank: "8",
     weight: "0.5",
     activityTime: "낮",
@@ -1532,7 +1532,7 @@ const FishData = [
   },
   {
     name: "일각고래",
-    image: "/Img/fishImg/일각고래.png",
+    image: "/fishImg/일각고래.png",
     rank: "9",
     weight: "9.5",
     activityTime: "낮",
@@ -1547,7 +1547,7 @@ const FishData = [
   },
   {
     name: "해덕대구",
-    image: "/Img/fishImg/해덕대구.png",
+    image: "/fishImg/해덕대구.png",
     rank: "8",
     weight: "6",
     activityTime: "낮",
@@ -1561,7 +1561,7 @@ const FishData = [
   },
   {
     name: "땅가오리",
-    image: "/Img/fishImg/땅가오리.png",
+    image: "/fishImg/땅가오리.png",
     rank: "9",
     weight: "5.5",
     activityTime: "낮",
@@ -1575,7 +1575,7 @@ const FishData = [
   },
   {
     name: "황색왕게",
-    image: "/Img/fishImg/황색왕게.png",
+    image: "/fishImg/황색왕게.png",
     rank: "8",
     weight: "8",
     activityTime: "낮",
@@ -1590,7 +1590,7 @@ const FishData = [
   // 빙하동굴
   {
     name: "북극 망원경 물고기",
-    image: "/Img/fishImg/북극 망원경 물고기.png",
+    image: "/fishImg/북극 망원경 물고기.png",
     rank: "8",
     weight: "3",
     activityTime: "낮",
@@ -1604,7 +1604,7 @@ const FishData = [
   },
   {
     name: "알래스카 명태",
-    image: "/Img/fishImg/알래스카 명태.png",
+    image: "/fishImg/알래스카 명태.png",
     rank: "8",
     weight: "7",
     activityTime: "낮",
@@ -1618,7 +1618,7 @@ const FishData = [
   },
   {
     name: "럼프피쉬",
-    image: "/Img/fishImg/럼프피쉬.png",
+    image: "/fishImg/럼프피쉬.png",
     rank: "9",
     weight: "5",
     activityTime: "낮",
@@ -1632,7 +1632,7 @@ const FishData = [
   },
   {
     name: "들창코가시장어",
-    image: "/Img/fishImg/들창코가시장어.png",
+    image: "/fishImg/들창코가시장어.png",
     rank: "9",
     weight: "6.5",
     activityTime: "낮",
@@ -1648,7 +1648,7 @@ const FishData = [
   // 열수분출구역
   {
     name: "왑티아 필덴시스",
-    image: "/Img/fishImg/왑티아 필덴시스.png",
+    image: "/fishImg/왑티아 필덴시스.png",
     rank: "9",
     weight: "0.4",
     activityTime: "낮",
@@ -1661,7 +1661,7 @@ const FishData = [
   },
   {
     name: "피카이아",
-    image: "/Img/fishImg/피카이아.png",
+    image: "/fishImg/피카이아.png",
     rank: "9",
     weight: "4.5",
     activityTime: "낮",
@@ -1675,7 +1675,7 @@ const FishData = [
   },
   {
     name: "알레니프테루스",
-    image: "/Img/fishImg/알레니프테루스.png",
+    image: "/fishImg/알레니프테루스.png",
     rank: "9",
     weight: "4",
     activityTime: "낮",
@@ -1689,7 +1689,7 @@ const FishData = [
   },
   {
     name: "칭멘도스",
-    image: "/Img/fishImg/칭멘도스.png",
+    image: "/fishImg/칭멘도스.png",
     rank: "9",
     weight: "6",
     activityTime: "낮",
@@ -1703,7 +1703,7 @@ const FishData = [
   },
   {
     name: "팔카투스",
-    image: "/Img/fishImg/팔카투스.png",
+    image: "/fishImg/팔카투스.png",
     rank: "9",
     weight: "6",
     activityTime: "낮",
@@ -1717,7 +1717,7 @@ const FishData = [
   },
   {
     name: "드레파나스피스",
-    image: "/Img/fishImg/드레파나스피스.png",
+    image: "/fishImg/드레파나스피스.png",
     rank: "9",
     weight: "8.5",
     activityTime: "낮",
@@ -1732,7 +1732,7 @@ const FishData = [
   },
   {
     name: "둔클레오스테우스",
-    image: "/Img/fishImg/둔클레오스테우스.png",
+    image: "/fishImg/둔클레오스테우스.png",
     rank: "9",
     weight: "19.5",
     activityTime: "낮",
@@ -1747,7 +1747,7 @@ const FishData = [
   },
   {
     name: "제나칸투스",
-    image: "/Img/fishImg/제나칸투스.png",
+    image: "/fishImg/제나칸투스.png",
     rank: "9",
     weight: "5.5",
     activityTime: "낮",
@@ -1763,7 +1763,7 @@ const FishData = [
   // 건목제어실
   {
     name: "메갈로그랍투스",
-    image: "/Img/fishImg/메갈로그랍투스.png",
+    image: "/fishImg/메갈로그랍투스.png",
     rank: "9",
     weight: "8",
     activityTime: "낮",
@@ -1779,7 +1779,7 @@ const FishData = [
   // 블루홀초입
   {
     name: "빅벨리 해마",
-    image: "/Img/fishImg/빅벨리 해마.png",
+    image: "/fishImg/빅벨리 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1792,7 +1792,7 @@ const FishData = [
   },
   {
     name: "자야카 해마",
-    image: "/Img/fishImg/자야카 해마.png",
+    image: "/fishImg/자야카 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1805,7 +1805,7 @@ const FishData = [
   },
   {
     name: "갈귀 해마",
-    image: "/Img/fishImg/갈귀 해마.png",
+    image: "/fishImg/갈귀 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1817,7 +1817,7 @@ const FishData = [
   },
   {
     name: "태평양 해마",
-    image: "/Img/fishImg/태평양 해마.png",
+    image: "/fishImg/태평양 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1831,7 +1831,7 @@ const FishData = [
   // 중간수역
   {
     name: "드워프 해마",
-    image: "/Img/fishImg/드워프 해마.png",
+    image: "/fishImg/드워프 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1844,7 +1844,7 @@ const FishData = [
   },
   {
     name: "고슴도치 해마",
-    image: "/Img/fishImg/고슴도치 해마.png",
+    image: "/fishImg/고슴도치 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1857,7 +1857,7 @@ const FishData = [
   },
   {
     name: "호랑이꼬리 해마",
-    image: "/Img/fishImg/호랑이꼬리 해마.png",
+    image: "/fishImg/호랑이꼬리 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1870,7 +1870,7 @@ const FishData = [
   },
   {
     name: "가시 해마",
-    image: "/Img/fishImg/가시 해마.png",
+    image: "/fishImg/가시 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1884,7 +1884,7 @@ const FishData = [
   // 종유동굴
   {
     name: "기린 해마",
-    image: "/Img/fishImg/기린 해마.png",
+    image: "/fishImg/기린 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1897,7 +1897,7 @@ const FishData = [
   },
   {
     name: "얼룩말 해마",
-    image: "/Img/fishImg/얼룩말 해마.png",
+    image: "/fishImg/얼룩말 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1911,7 +1911,7 @@ const FishData = [
   // 블루홀심해
   {
     name: "하양 해마",
-    image: "/Img/fishImg/하양 해마.png",
+    image: "/fishImg/하양 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1924,7 +1924,7 @@ const FishData = [
   },
   {
     name: "왕관 해마",
-    image: "/Img/fishImg/왕관 해마.png",
+    image: "/fishImg/왕관 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1937,7 +1937,7 @@ const FishData = [
   },
   {
     name: "줄지어 해마",
-    image: "/Img/fishImg/줄지어 해마.png",
+    image: "/fishImg/줄지어 해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1950,7 +1950,7 @@ const FishData = [
   },
   {
     name: "복해마",
-    image: "/Img/fishImg/복해마.png",
+    image: "/fishImg/복해마.png",
     rank: "1",
     weight: "0.5",
     activityTime: "낮",
@@ -1965,7 +1965,7 @@ const FishData = [
   // 빙하지역 해룡
   {
     name: "풀잎해룡",
-    image: "/Img/fishImg/풀잎해룡.png",
+    image: "/fishImg/풀잎해룡.png",
     rank: "8",
     weight: "0.5",
     activityTime: "낮",
@@ -1978,7 +1978,7 @@ const FishData = [
   },
   {
     name: "나뭇잎해룡",
-    image: "/Img/fishImg/나뭇잎해룡.png",
+    image: "/fishImg/나뭇잎해룡.png",
     rank: "8",
     weight: "0.5",
     activityTime: "낮",
@@ -1991,7 +1991,7 @@ const FishData = [
   },
   {
     name: "루비해룡",
-    image: "/Img/fishImg/루비해룡.png",
+    image: "/fishImg/루비해룡.png",
     rank: "8",
     weight: "0.5",
     activityTime: "낮",
@@ -2006,7 +2006,7 @@ const FishData = [
   // 통발
   {
     name: "가시발새우",
-    image: "/Img/fishImg/가시발새우.png",
+    image: "/fishImg/가시발새우.png",
     rank: "5",
     weight: "0.1",
     activityTime: "밤",
@@ -2020,7 +2020,7 @@ const FishData = [
   },
   {
     name: "미국바닷가재",
-    image: "/Img/fishImg/미국바닷가재.png",
+    image: "/fishImg/미국바닷가재.png",
     rank: "8",
     weight: "1",
     activityTime: "낮",
@@ -2034,7 +2034,7 @@ const FishData = [
   },
   {
     name: "블루랍스터",
-    image: "/Img/fishImg/블루랍스터.png",
+    image: "/fishImg/블루랍스터.png",
     rank: "8",
     weight: "1",
     activityTime: "밤",
@@ -2048,7 +2048,7 @@ const FishData = [
   },
   {
     name: "유럽바닷가재",
-    image: "/Img/fishImg/유럽바닷가재.png",
+    image: "/fishImg/유럽바닷가재.png",
     rank: "5",
     weight: "1",
     activityTime: "낮",
@@ -2064,7 +2064,7 @@ const FishData = [
   // 블루홀 중간수역
   {
     name: "캘리포니아닭새우",
-    image: "/Img/fishImg/캘리포니아닭새우.png",
+    image: "/fishImg/캘리포니아닭새우.png",
     rank: "5",
     weight: "1.5",
     activityTime: "낮",
@@ -2078,7 +2078,7 @@ const FishData = [
   },
   {
     name: "부채새우",
-    image: "/Img/fishImg/부채새우.png",
+    image: "/fishImg/부채새우.png",
     rank: "5",
     weight: "0.2",
     activityTime: "밤",
@@ -2092,7 +2092,7 @@ const FishData = [
   },
   {
     name: "비단닭새우",
-    image: "/Img/fishImg/비단닭새우.png",
+    image: "/fishImg/비단닭새우.png",
     rank: "8",
     weight: "1.2",
     activityTime: "낮",
@@ -2106,7 +2106,7 @@ const FishData = [
   },
   {
     name: "크리스탈랍스터",
-    image: "/Img/fishImg/크리스탈랍스터.png",
+    image: "/fishImg/크리스탈랍스터.png",
     rank: "5",
     weight: "1.5",
     activityTime: "밤",
@@ -2122,7 +2122,7 @@ const FishData = [
   // 블루홀 심해
   {
     name: "네점발빨간새우",
-    image: "/Img/fishImg/네점발빨간새우.png",
+    image: "/fishImg/네점발빨간새우.png",
     rank: "5",
     weight: "0.2",
     activityTime: "낮",
@@ -2136,7 +2136,7 @@ const FishData = [
   },
   {
     name: "동부바위바닷가재",
-    image: "/Img/fishImg/동부바위바닷가재.png",
+    image: "/fishImg/동부바위바닷가재.png",
     rank: "8",
     weight: "2.5",
     activityTime: "낮",
@@ -2150,7 +2150,7 @@ const FishData = [
   },
   {
     name: "대게",
-    image: "/Img/fishImg/대게.png",
+    image: "/fishImg/대게.png",
     rank: "8",
     weight: "2",
     activityTime: "낮",
@@ -2164,7 +2164,7 @@ const FishData = [
   },
   {
     name: "털게",
-    image: "/Img/fishImg/털게.png",
+    image: "/fishImg/털게.png",
     rank: "9",
     weight: "1.5",
     activityTime: "낮",
@@ -2180,7 +2180,7 @@ const FishData = [
   // 열수분출구역
   {
     name: "돌로카리스인겐스",
-    image: "/Img/fishImg/돌로카리스인겐스.png",
+    image: "/fishImg/돌로카리스인겐스.png",
     rank: "8",
     weight: "1.5",
     activityTime: "낮",
@@ -2194,7 +2194,7 @@ const FishData = [
   },
   {
     name: "토큐미아카탈렙시스",
-    image: "/Img/fishImg/토큐미아카탈렙시스.png",
+    image: "/fishImg/토큐미아카탈렙시스.png",
     rank: "9",
     weight: "2",
     activityTime: "낮",
@@ -2210,7 +2210,7 @@ const FishData = [
   // 건목제어실
   {
     name: "아노말로칼리스",
-    image: "/Img/fishImg/아노말로칼리스.png",
+    image: "/fishImg/아노말로칼리스.png",
     rank: "9",
     weight: "4",
     activityTime: "낮",

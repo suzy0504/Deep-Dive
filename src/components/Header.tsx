@@ -1,5 +1,9 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
 import { Gugi } from "next/font/google";
-import { IoMenu } from "react-icons/io5";
+import { IoIosMenu } from "react-icons/io";
+import SideBar from "./SideBar";
 
 const gugi = Gugi({
   weight: "400",
@@ -7,10 +11,45 @@ const gugi = Gugi({
 });
 
 const Header = () => {
+  const [isSideBarVisible, setSideBarVisible] = useState(false);
+  const sideBarRef = useRef<HTMLDivElement>(null);
+
+  const toggleSideBar = () => {
+    setSideBarVisible(!isSideBarVisible);
+  };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        sideBarRef.current &&
+        !sideBarRef.current.contains(event.target as Node)
+      ) {
+        setSideBarVisible(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <div className="bg-main w-full h-20 flex justify-center items-center p-3 relative">
-      <IoMenu className="absolute left-3 text-white text-6xl hover:text-point" />
-      <p className={`${gugi.className} flex text-5xl text-white`}>Deep Dive</p>
+      <div className="flex justify-center items-center">
+        <IoIosMenu
+          className="absolute left-3 text-white text-6xl hover:text-point mr-2 cursor-pointer"
+          onClick={toggleSideBar}
+        />
+        <p className={`${gugi.className} flex text-4xl text-white`}>
+          Deep Dive
+        </p>
+      </div>
+      {isSideBarVisible && (
+        <div ref={sideBarRef}>
+          <SideBar />
+        </div>
+      )}
     </div>
   );
 };

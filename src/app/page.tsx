@@ -1,13 +1,12 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import UserProfileSave from "@/components/UserProfileSave";
+import React from "react";
 
-export default function Home() {
+const page = () => {
   return (
-    <>
-      <Header />
+    <div className="w-full flex justify-center items-center">
       <UserProfileSave />
-      <Footer />
-    </>
+    </div>
   );
-}
+};
+
+export default page;
