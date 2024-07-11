@@ -4,13 +4,13 @@ const cookingData = [
     items: [
       {
         name: "김 초밥",
-        image: "/Img/cookingImg/김 초밥.png",
+        image: "/cookingImg/김 초밥.png",
         info: "김, 초대리, 와사비로 만들어진 초밥이다.",
         판매가격: "1",
       },
       {
         name: "흰동가리 초밥",
-        image: "/Img/cookingImg/흰동가리 초밥.png",
+        image: "/cookingImg/흰동가리 초밥.png",
         info: "흰동가리로 만든 초밥이다. 주황색 줄무늬가 식욕을 자극한다.",
         재료: "흰동가리 1",
         "강화 단계": {
@@ -28,7 +28,7 @@ const cookingData = [
       },
       {
         name: "콤버 초밥",
-        image: "/Img/cookingImg/콤버 초밥.png",
+        image: "/cookingImg/콤버 초밥.png",
         info: "콤버로 만든 초밥이다.",
         재료: "콤버 1",
         "강화 단계": {
@@ -46,7 +46,7 @@ const cookingData = [
       },
       {
         name: "지중해카디널피쉬 초밥",
-        image: "/Img/cookingImg/지중해카디널피쉬 초밥.png",
+        image: "/cookingImg/지중해카디널피쉬 초밥.png",
         info: "지중해카디널피쉬로 만든 초밥이다.",
         재료: "지중해카디널피쉬 1",
         "강화 단계": {
@@ -64,7 +64,7 @@ const cookingData = [
       },
       {
         name: "금강바리 초밥",
-        image: "/Img/cookingImg/금강바리 초밥.png",
+        image: "/cookingImg/금강바리 초밥.png",
         info: "금강바리로 만든 초밥이다.",
         재료: "금강바리 1",
         "강화 단계": {
@@ -82,7 +82,7 @@ const cookingData = [
       },
       {
         name: "안개나비고기 초밥",
-        image: "/Img/cookingImg/안개나비고기 초밥.png",
+        image: "/cookingImg/안개나비고기 초밥.png",
         info: "안개나비고기로 만든 초밥이다.",
         재료: "안개나비고기 1",
         "강화 단계": {
@@ -100,7 +100,7 @@ const cookingData = [
       },
       {
         name: "옐로우탱 초밥",
-        image: "/Img/cookingImg/옐로우탱 초밥.png",
+        image: "/cookingImg/옐로우탱 초밥.png",
         info: "옐로우탱으로 만든 초밥이다.",
         재료: "옐로우탱 1",
         "강화 단계": {
@@ -118,7 +118,7 @@ const cookingData = [
       },
       {
         name: "사르파살파 초밥",
-        image: "/Img/cookingImg/사르파살파 초밥.png",
+        image: "/cookingImg/사르파살파 초밥.png",
         info: "사르파살파로 만든 초밥이다.",
         재료: "사르파살파 1",
         "강화 단계": {
@@ -136,7 +136,7 @@ const cookingData = [
       },
       {
         name: "원반제비활치 튀김",
-        image: "/Img/cookingImg/원반제비활치 튀김.png",
+        image: "/cookingImg/원반제비활치 튀김.png",
         info: "새끼 원반제비활치로 만든 튀김이다.",
         재료: "원반제비활치 1",
         "강화 단계": {
@@ -154,7 +154,7 @@ const cookingData = [
       },
       {
         name: "블루탱 초밥",
-        image: "/Img/cookingImg/블루탱 초밥.png",
+        image: "/cookingImg/블루탱 초밥.png",
         info: "블루탱으로 만든 초밥이다.",
         재료: "블루탱 1",
         "강화 단계": {
@@ -172,7 +172,7 @@ const cookingData = [
       },
       {
         name: "무지개놀래기 초밥",
-        image: "/Img/cookingImg/무지개놀래기 초밥.png",
+        image: "/cookingImg/무지개놀래기 초밥.png",
         info: "무지개놀래기로 만든 초밥이다.",
         재료: "무지개놀래기 1",
         "강화 단계": {
@@ -190,7 +190,7 @@ const cookingData = [
       },
       {
         name: "배주름쥐치 초밥",
-        image: "/Img/cookingImg/배주름쥐치 초밥.png",
+        image: "/cookingImg/배주름쥐치 초밥.png",
         info: "배주름쥐치로 만든 초밥이다.",
         재료: "배주름쥐치 1",
         "강화 단계": {
@@ -208,7 +208,7 @@ const cookingData = [
       },
       {
         name: "빨판매가리 초밥",
-        image: "/Img/cookingImg/빨판매가리 초밥.png",
+        image: "/cookingImg/빨판매가리 초밥.png",
         info: "빨판매가리로 만든 초밥이다.",
         재료: "빨판매가리 1",
         "강화 단계": {
@@ -226,7 +226,7 @@ const cookingData = [
       },
       {
         name: "황등어 초밥",
-        image: "/Img/cookingImg/황등어 초밥.png",
+        image: "/cookingImg/황등어 초밥.png",
         info: "황등어로 만든 초밥이다.",
         재료: "황등어 1",
         "강화 단계": {
@@ -244,7 +244,7 @@ const cookingData = [
       },
       {
         name: "오네이트놀래기 초밥",
-        image: "/Img/cookingImg/오네이트놀래기 초밥.png",
+        image: "/cookingImg/오네이트놀래기 초밥.png",
         info: "오네이트놀래기로 만든 초밥이다.",
         재료: "오네이트놀래기 1",
         "강화 단계": {
@@ -262,7 +262,7 @@ const cookingData = [
       },
       {
         name: "깃털제비활치 초밥",
-        image: "/Img/cookingImg/깃털제비활치 초밥.png",
+        image: "/cookingImg/깃털제비활치 초밥.png",
         info: "깃털제비활치로 만든 초밥이다.",
         재료: "깃털제비활치 1",
         "강화 단계": {
@@ -280,7 +280,7 @@ const cookingData = [
       },
       {
         name: "지중해비늘돔 초밥",
-        image: "/Img/cookingImg/지중해비늘돔 초밥.png",
+        image: "/cookingImg/지중해비늘돔 초밥.png",
         info: "지중해비늘돔으로 만든 초밥이다.",
         재료: "지중해비늘돔 1",
         "강화 단계": {
@@ -298,7 +298,7 @@ const cookingData = [
       },
       {
         name: "붉은이빨쥐치 초밥",
-        image: "/Img/cookingImg/붉은이빨쥐치 초밥.png",
+        image: "/cookingImg/붉은이빨쥐치 초밥.png",
         info: "붉은이빨쥐치로 만든 초밥이다.",
         재료: "붉은이빨쥐치 1",
         "강화 단계": {
@@ -316,7 +316,7 @@ const cookingData = [
       },
       {
         name: "블랙스내퍼 초밥",
-        image: "/Img/cookingImg/블랙스내퍼 초밥.png",
+        image: "/cookingImg/블랙스내퍼 초밥.png",
         info: "블랙스내퍼로 만든 초밥이다.",
         재료: "블랙스내퍼 1",
         "강화 단계": {
@@ -334,7 +334,7 @@ const cookingData = [
       },
       {
         name: "버팔로피쉬 초밥",
-        image: "/Img/cookingImg/버팔로피쉬 초밥.png",
+        image: "/cookingImg/버팔로피쉬 초밥.png",
         info: "버팔로피쉬의 살점으로 만든 초밥이다.",
         재료: "버팔로피쉬 1",
         "강화 단계": {
@@ -352,7 +352,7 @@ const cookingData = [
       },
       {
         name: "배럴해파리 군함 초밥",
-        image: "/Img/cookingImg/배럴해파리 군함 초밥.png",
+        image: "/cookingImg/배럴해파리 군함 초밥.png",
         info: "배럴해파리로 만든 군함 초밥이다.",
         재료: "배럴해파리 1",
         관련파티: "해파리 파티",
@@ -371,7 +371,7 @@ const cookingData = [
       },
       {
         name: "달걀프라이해파리 군함 초밥",
-        image: "/Img/cookingImg/달걀프라이해파리 군함 초밥.png",
+        image: "/cookingImg/달걀프라이해파리 군함 초밥.png",
         info: "달걀프라이해파리로 만든 군함 초밥이다.",
         재료: "달걀프라이해파리 1",
         관련파티: "해파리 파티",
@@ -390,7 +390,7 @@ const cookingData = [
       },
       {
         name: "백기흉상어 초밥",
-        image: "/Img/cookingImg/백기흉상어 초밥.png",
+        image: "/cookingImg/백기흉상어 초밥.png",
         info: "백기흉상어의 살점으로 만든 초밥이다.",
         재료: "백기흉상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -409,7 +409,7 @@ const cookingData = [
       },
       {
         name: "곰치 초밥",
-        image: "/Img/cookingImg/곰치 초밥.png",
+        image: "/cookingImg/곰치 초밥.png",
         info: "곰치로 만든 초밥이다.",
         재료: "곰치 1",
         "강화 단계": {
@@ -427,7 +427,7 @@ const cookingData = [
       },
       {
         name: "쏠배감펭 초밥",
-        image: "/Img/cookingImg/쏠배감펭 초밥.png",
+        image: "/cookingImg/쏠배감펭 초밥.png",
         info: "쏠배감펭으로 만든 초밥이다.",
         재료: "쏠배감펭 1",
         "강화 단계": {
@@ -445,7 +445,7 @@ const cookingData = [
       },
       {
         name: "타이탄트리거피쉬 초밥",
-        image: "/Img/cookingImg/타이탄트리거피쉬 초밥.png",
+        image: "/cookingImg/타이탄트리거피쉬 초밥.png",
         info: "타이탄트리거피쉬로 만든 초밥이다.",
         재료: "타이탄트리거피쉬 1",
         "강화 단계": {
@@ -463,7 +463,7 @@ const cookingData = [
       },
       {
         name: "흑기흉상어 초밥",
-        image: "/Img/cookingImg/흑기흉상어 초밥.png",
+        image: "/cookingImg/흑기흉상어 초밥.png",
         info: "흑기흉상어의 살점으로 만든 초밥이다.",
         재료: "흑기흉상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -482,7 +482,7 @@ const cookingData = [
       },
       {
         name: "무태상어 초밥",
-        image: "/Img/cookingImg/무태상어 초밥.png",
+        image: "/cookingImg/무태상어 초밥.png",
         info: "무태상어의 살점으로 만든 초밥이다.",
         재료: "무태상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -501,7 +501,7 @@ const cookingData = [
       },
       {
         name: "상자해파리 군함 초밥",
-        image: "/Img/cookingImg/상자해파리 군함 초밥.png",
+        image: "/cookingImg/상자해파리 군함 초밥.png",
         info: "상자해파리로 만든 군함 초밥이다.",
         재료: "상자해파리 1",
         관련파티: "해파리 파티",
@@ -520,7 +520,7 @@ const cookingData = [
       },
       {
         name: "참다랑어 붉은살 초밥",
-        image: "/Img/cookingImg/참다랑어 붉은살 초밥.png",
+        image: "/cookingImg/참다랑어 붉은살 초밥.png",
         info: "참다랑어 붉은살로 만든 초밥이다.",
         재료: "참다랑어 붉은살 1",
         관련파티: "참치 요트 파티",
@@ -539,7 +539,7 @@ const cookingData = [
       },
       {
         name: "참다랑어 중뱃살 초밥",
-        image: "/Img/cookingImg/참다랑어 중뱃살 초밥.png",
+        image: "/cookingImg/참다랑어 중뱃살 초밥.png",
         info: "참다랑어 중뱃살로 만든 초밥이다.",
         재료: "참다랑어 중뱃살 1",
         관련파티: "참치 요트 파티",
@@ -558,7 +558,7 @@ const cookingData = [
       },
       {
         name: "참다랑어 대뱃살 초밥",
-        image: "/Img/cookingImg/참다랑어 대뱃살 초밥.png",
+        image: "/cookingImg/참다랑어 대뱃살 초밥.png",
         info: "참다랑어 대뱃살로 만든 초밥이다.",
         재료: "참다랑어 대뱃살 1",
         관련파티: "참치 요트 파티",
@@ -577,7 +577,7 @@ const cookingData = [
       },
       {
         name: "황다랑어 붉은살 초밥",
-        image: "/Img/cookingImg/황다랑어 붉은살 초밥.png",
+        image: "/cookingImg/황다랑어 붉은살 초밥.png",
         info: "황다랑어 붉은살로 만든 초밥이다.",
         재료: "황다랑어 붉은살 1",
         관련파티: "참치 요트 파티",
@@ -596,7 +596,7 @@ const cookingData = [
       },
       {
         name: "황다랑어 중뱃살 초밥",
-        image: "/Img/cookingImg/황다랑어 중뱃살 초밥.png",
+        image: "/cookingImg/황다랑어 중뱃살 초밥.png",
         info: "황다랑어 중뱃살로 만든 초밥이다.",
         재료: "황다랑어 중뱃살 1",
         관련파티: "참치 요트 파티",
@@ -615,7 +615,7 @@ const cookingData = [
       },
       {
         name: "황다랑어 대뱃살 초밥",
-        image: "/Img/cookingImg/황다랑어 대뱃살 초밥.png",
+        image: "/cookingImg/황다랑어 대뱃살 초밥.png",
         info: "황다랑어 대뱃살로 만든 초밥이다.",
         재료: "황다랑어 대뱃살 1",
         관련파티: "참치 요트 파티",
@@ -634,7 +634,7 @@ const cookingData = [
       },
       {
         name: "라마엔젤피쉬 초밥",
-        image: "/Img/cookingImg/라마엔젤피쉬 초밥.png",
+        image: "/cookingImg/라마엔젤피쉬 초밥.png",
         info: "라마엔젤피쉬로 만든 초밥이다.",
         재료: "라마엔젤피쉬 1",
         "강화 단계": {
@@ -652,7 +652,7 @@ const cookingData = [
       },
       {
         name: "혹돔 초밥",
-        image: "/Img/cookingImg/혹돔 초밥.png",
+        image: "/cookingImg/혹돔 초밥.png",
         info: "혹돔의 살점으로 만든 초밥이다.",
         재료: "혹돔 살점 1",
         "강화 단계": {
@@ -670,7 +670,7 @@ const cookingData = [
       },
       {
         name: "황제엔젤피쉬 초밥",
-        image: "/Img/cookingImg/황제엔젤피쉬 초밥.png",
+        image: "/cookingImg/황제엔젤피쉬 초밥.png",
         info: "황제엔젤피쉬로 만든 초밥이다.",
         재료: "황제엔젤피쉬 1",
         "강화 단계": {
@@ -688,7 +688,7 @@ const cookingData = [
       },
       {
         name: "노랑가오리 초밥",
-        image: "/Img/cookingImg/노랑가오리 초밥.png",
+        image: "/cookingImg/노랑가오리 초밥.png",
         info: "노랑가오리의 살점으로 만든 초밥이다.",
         재료: "노랑가오리 살점 1",
         "강화 단계": {
@@ -706,7 +706,7 @@ const cookingData = [
       },
       {
         name: "마블전기가오리 초밥",
-        image: "/Img/cookingImg/마블전기가오리 초밥.png",
+        image: "/cookingImg/마블전기가오리 초밥.png",
         info: "마블전기가오리의 살점으로 만든 초밥이다.",
         재료: "마블전기가오리 살점 1",
         "강화 단계": {
@@ -724,7 +724,7 @@ const cookingData = [
       },
       {
         name: "흰다리자숙새우 초밥",
-        image: "/Img/cookingImg/흰다리자숙새우 초밥.png",
+        image: "/cookingImg/흰다리자숙새우 초밥.png",
         info: "흰다리자숙새우로 만든 초밥이다.",
         재료: "흰다리자숙새우 1",
         관련파티: "새우 파티",
@@ -743,7 +743,7 @@ const cookingData = [
       },
       {
         name: "쏠종개 초밥",
-        image: "/Img/cookingImg/쏠종개 초밥.png",
+        image: "/cookingImg/쏠종개 초밥.png",
         info: "쏠종개로 만든 초밥이다.",
         재료: "쏠종개 1",
         "강화 단계": {
@@ -761,7 +761,7 @@ const cookingData = [
       },
       {
         name: "보라성게 초밥",
-        image: "/Img/cookingImg/보라성게 초밥.png",
+        image: "/cookingImg/보라성게 초밥.png",
         info: "보라성게로 만든 초밥이다.",
         재료: "보라성게 1",
         "강화 단계": {
@@ -779,7 +779,7 @@ const cookingData = [
       },
       {
         name: "청상아리 초밥",
-        image: "/Img/cookingImg/청상아리 초밥.png",
+        image: "/cookingImg/청상아리 초밥.png",
         info: "청상아리의 살점으로 만든 초밥이다.",
         재료: "청상아리 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -798,7 +798,7 @@ const cookingData = [
       },
       {
         name: "지브라상어 초밥",
-        image: "/Img/cookingImg/지브라상어 초밥.png",
+        image: "/cookingImg/지브라상어 초밥.png",
         info: "지브라상어의 살점으로 만든 초밥이다.",
         재료: "지브라상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -817,7 +817,7 @@ const cookingData = [
       },
       {
         name: "청새치 초밥",
-        image: "/Img/cookingImg/청새치 초밥.png",
+        image: "/cookingImg/청새치 초밥.png",
         info: "청새치의 살점으로 만든 초밥이다.",
         재료: "청새치 살점 1",
         관련파티: "청새치 파티",
@@ -836,7 +836,7 @@ const cookingData = [
       },
       {
         name: "환도상어 초밥",
-        image: "/Img/cookingImg/환도상어 초밥.png",
+        image: "/cookingImg/환도상어 초밥.png",
         info: "환도상어의 살점으로 만든 초밥이다.",
         재료: "환도상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -855,7 +855,7 @@ const cookingData = [
       },
       {
         name: "블루헤드타일피쉬 초밥",
-        image: "/Img/cookingImg/블루헤드타일피쉬 초밥.png",
+        image: "/cookingImg/블루헤드타일피쉬 초밥.png",
         info: "블루헤드타일피쉬로 만든 초밥이다.",
         재료: "블루헤드타일피쉬 1",
         "강화 단계": {
@@ -873,7 +873,7 @@ const cookingData = [
       },
       {
         name: "무당씬벵이 초밥",
-        image: "/Img/cookingImg/무당씬벵이 초밥.png",
+        image: "/cookingImg/무당씬벵이 초밥.png",
         info: "무당씬벵이로 만든 초밥이다.",
         재료: "무당씬벵이 1",
         "강화 단계": {
@@ -891,7 +891,7 @@ const cookingData = [
       },
       {
         name: "페인티드콤버 초밥",
-        image: "/Img/cookingImg/페인티드콤버 초밥.png",
+        image: "/cookingImg/페인티드콤버 초밥.png",
         info: "페인티드콤버로 만든 초밥이다.",
         재료: "페인티드콤버 1",
         "강화 단계": {
@@ -909,7 +909,7 @@ const cookingData = [
       },
       {
         name: "새가라지 초밥",
-        image: "/Img/cookingImg/새가라지 초밥.png",
+        image: "/cookingImg/새가라지 초밥.png",
         info: "새가라지로 만든 초밥이다.",
         재료: "새가라지 1",
         "강화 단계": {
@@ -927,7 +927,7 @@ const cookingData = [
       },
       {
         name: "노랑촉수 초밥",
-        image: "/Img/cookingImg/노랑촉수 초밥.png",
+        image: "/cookingImg/노랑촉수 초밥.png",
         info: "노랑촉수로 만든 초밥이다.",
         재료: "노랑촉수 1",
         "강화 단계": {
@@ -945,7 +945,7 @@ const cookingData = [
       },
       {
         name: "풀가라지 초밥",
-        image: "/Img/cookingImg/풀가라지 초밥.png",
+        image: "/cookingImg/풀가라지 초밥.png",
         info: "풀가라지로 만든 초밥이다.",
         재료: "풀가라지 1",
         "강화 단계": {
@@ -963,7 +963,7 @@ const cookingData = [
       },
       {
         name: "청줄바리 초밥",
-        image: "/Img/cookingImg/청줄바리 초밥.png",
+        image: "/cookingImg/청줄바리 초밥.png",
         info: "청줄바리로 만든 초밥이다.",
         재료: "청줄바리 1",
         "강화 단계": {
@@ -981,7 +981,7 @@ const cookingData = [
       },
       {
         name: "줄전갱이 초밥",
-        image: "/Img/cookingImg/줄전갱이 초밥.png",
+        image: "/cookingImg/줄전갱이 초밥.png",
         info: "줄전갱이로 만든 초밥이다.",
         재료: "줄전갱이 1",
         "강화 단계": {
@@ -999,7 +999,7 @@ const cookingData = [
       },
       {
         name: "무늬바리 초밥",
-        image: "/Img/cookingImg/무늬바리 초밥.png",
+        image: "/cookingImg/무늬바리 초밥.png",
         info: "무늬바리로 만든 초밥이다.",
         재료: "무늬바리 1",
         "강화 단계": {
@@ -1017,7 +1017,7 @@ const cookingData = [
       },
       {
         name: "갈쥐치 초밥",
-        image: "/Img/cookingImg/갈쥐치 초밥.png",
+        image: "/cookingImg/갈쥐치 초밥.png",
         info: "갈쥐치로 만든 초밥이다.",
         재료: "갈쥐치 1",
         "강화 단계": {
@@ -1035,7 +1035,7 @@ const cookingData = [
       },
       {
         name: "대서양보니토 초밥",
-        image: "/Img/cookingImg/대서양보니토 초밥.png",
+        image: "/cookingImg/대서양보니토 초밥.png",
         info: "대서양보니토로 만든 초밥이다.",
         재료: "대서양보니토 1",
         "강화 단계": {
@@ -1053,7 +1053,7 @@ const cookingData = [
       },
       {
         name: "흑점줄전갱이 초밥",
-        image: "/Img/cookingImg/흑점줄전갱이 초밥.png",
+        image: "/cookingImg/흑점줄전갱이 초밥.png",
         info: "흑점줄전갱이로 만든 초밥이다.",
         재료: "흑점줄전갱이 1",
         "강화 단계": {
@@ -1071,7 +1071,7 @@ const cookingData = [
       },
       {
         name: "갑오징어 초밥",
-        image: "/Img/cookingImg/갑오징어 초밥.png",
+        image: "/cookingImg/갑오징어 초밥.png",
         info: "갑오징어로 만든 초밥이다.",
         재료: "갑오징어 1",
         "강화 단계": {
@@ -1089,7 +1089,7 @@ const cookingData = [
       },
       {
         name: "머구리농어 초밥",
-        image: "/Img/cookingImg/머구리농어 초밥.png",
+        image: "/cookingImg/머구리농어 초밥.png",
         info: "머구리농어로 만든 초밥이다.",
         재료: "머구리농어 1",
         "강화 단계": {
@@ -1107,7 +1107,7 @@ const cookingData = [
       },
       {
         name: "대서양고등어 초밥",
-        image: "/Img/cookingImg/대서양고등어 초밥.png",
+        image: "/cookingImg/대서양고등어 초밥.png",
         info: "대서양고등어로 만든 초밥이다.",
         재료: "대서양고등어 1",
         "강화 단계": {
@@ -1125,7 +1125,7 @@ const cookingData = [
       },
       {
         name: "무명갈전갱이 초밥",
-        image: "/Img/cookingImg/무명갈전갱이 초밥.png",
+        image: "/cookingImg/무명갈전갱이 초밥.png",
         info: "무명갈전갱이로 만든 초밥이다.",
         재료: "무명갈전갱이 살점 1",
         "강화 단계": {
@@ -1143,7 +1143,7 @@ const cookingData = [
       },
       {
         name: "흰점박이해파리 군함 초밥",
-        image: "/Img/cookingImg/흰점박이해파리 군함 초밥.png",
+        image: "/cookingImg/흰점박이해파리 군함 초밥.png",
         info: "흰점박이해파리로 만든 군함 초밥이다.",
         재료: "흰점박이해파리 1",
         관련파티: "해파리 파티",
@@ -1162,7 +1162,7 @@ const cookingData = [
       },
       {
         name: "뱀상어 초밥",
-        image: "/Img/cookingImg/뱀상어 초밥.png",
+        image: "/cookingImg/뱀상어 초밥.png",
         info: "뱀상어의 살점으로 만든 초밥이다.",
         재료: "뱀상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -1181,7 +1181,7 @@ const cookingData = [
       },
       {
         name: "큰꼬치고기 초밥",
-        image: "/Img/cookingImg/큰꼬치고기 초밥.png",
+        image: "/cookingImg/큰꼬치고기 초밥.png",
         info: "큰꼬치고기로 만든 초밥이다.",
         재료: "큰꼬치고기 1",
         "강화 단계": {
@@ -1199,7 +1199,7 @@ const cookingData = [
       },
       {
         name: "동갈삼치 초밥",
-        image: "/Img/cookingImg/동갈삼치 초밥.png",
+        image: "/cookingImg/동갈삼치 초밥.png",
         info: "동갈삼치로 만든 초밥이다.",
         재료: "동갈삼치 1",
         "강화 단계": {
@@ -1217,7 +1217,7 @@ const cookingData = [
       },
       {
         name: "톱상어 초밥",
-        image: "/Img/cookingImg/톱상어 초밥.png",
+        image: "/cookingImg/톱상어 초밥.png",
         info: "톱상어의 살점으로 만든 초밥이다.",
         재료: "톱상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -1236,7 +1236,7 @@ const cookingData = [
       },
       {
         name: "대서양아귀 초밥",
-        image: "/Img/cookingImg/대서양아귀 초밥.png",
+        image: "/cookingImg/대서양아귀 초밥.png",
         info: "대서양아귀로 만든 초밥이다.",
         재료: "대서양아귀 1",
         "강화 단계": {
@@ -1254,7 +1254,7 @@ const cookingData = [
       },
       {
         name: "갈라파고스붉은게살 초밥",
-        image: "/Img/cookingImg/갈라파고스붉은게살 초밥.png",
+        image: "/cookingImg/갈라파고스붉은게살 초밥.png",
         info: "갈라파고스붉은게살로 만든 초밥이다.",
         재료: "갈라파고스붉은게 1",
         "강화 단계": {
@@ -1272,7 +1272,7 @@ const cookingData = [
       },
       {
         name: "블랙타이거생새우 초밥",
-        image: "/Img/cookingImg/블랙타이거생새우 초밥.png",
+        image: "/cookingImg/블랙타이거생새우 초밥.png",
         info: "블랙타이거생새우로 만든 초밥이다.",
         재료: "블랙타이거생새우 1",
         관련파티: "새우 파티",
@@ -1291,7 +1291,7 @@ const cookingData = [
       },
       {
         name: "돛새치 초밥",
-        image: "/Img/cookingImg/돛새치 초밥.png",
+        image: "/cookingImg/돛새치 초밥.png",
         info: "돛새치의 살점으로 만든 초밥이다.",
         재료: "돛새치 살점 1",
         관련파티: "청새치 파티",
@@ -1310,7 +1310,7 @@ const cookingData = [
       },
       {
         name: "귀상어 초밥",
-        image: "/Img/cookingImg/귀상어 초밥.png",
+        image: "/cookingImg/귀상어 초밥.png",
         info: "귀상어의 살점으로 만든 초밥이다.",
         재료: "귀상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -1329,7 +1329,7 @@ const cookingData = [
       },
       {
         name: "흰보리새우 초밥",
-        image: "/Img/cookingImg/흰보리새우 초밥.png",
+        image: "/cookingImg/흰보리새우 초밥.png",
         info: "흰보리새우로 만든 초밥이다.",
         재료: "흰보리새우 1",
         관련파티: "새우 파티",
@@ -1348,7 +1348,7 @@ const cookingData = [
       },
       {
         name: "훔볼트오징어 초밥",
-        image: "/Img/cookingImg/훔볼트오징어 초밥.png",
+        image: "/cookingImg/훔볼트오징어 초밥.png",
         info: "훔볼트오징어의 살점으로 만든 초밥이다.",
         재료: "훔볼트오징어 1",
         "강화 단계": {
@@ -1366,7 +1366,7 @@ const cookingData = [
       },
       {
         name: "데빌스콜피온피쉬 초밥",
-        image: "/Img/cookingImg/데빌스콜피온피쉬 초밥.png",
+        image: "/cookingImg/데빌스콜피온피쉬 초밥.png",
         info: "데빌스콜피온피쉬로 만든 초밥이다.",
         재료: "데빌스콜피온피쉬 1",
         "강화 단계": {
@@ -1384,7 +1384,7 @@ const cookingData = [
       },
       {
         name: "앵무조개 초밥",
-        image: "/Img/cookingImg/앵무조개 초밥.png",
+        image: "/cookingImg/앵무조개 초밥.png",
         info: "앵무조개로 만든 초밥이다.",
         재료: "앵무조개 1",
         "강화 단계": {
@@ -1402,7 +1402,7 @@ const cookingData = [
       },
       {
         name: "귀신고기 초밥",
-        image: "/Img/cookingImg/귀신고기 초밥.png",
+        image: "/cookingImg/귀신고기 초밥.png",
         info: "귀신고기로 만든 초밥이다.",
         재료: "귀신고기 1",
         "강화 단계": {
@@ -1420,7 +1420,7 @@ const cookingData = [
       },
       {
         name: "주름상어 초밥",
-        image: "/Img/cookingImg/주름상어 초밥.png",
+        image: "/cookingImg/주름상어 초밥.png",
         info: "주름상어의 살점으로 만든 초밥이다.",
         재료: "주름상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -1439,7 +1439,7 @@ const cookingData = [
       },
       {
         name: "푸렁통구멍 초밥",
-        image: "/Img/cookingImg/푸렁통구멍 초밥.png",
+        image: "/cookingImg/푸렁통구멍 초밥.png",
         info: "푸렁통구멍으로 만든 초밥이다.",
         재료: "푸렁통구멍 1",
         "강화 단계": {
@@ -1457,7 +1457,7 @@ const cookingData = [
       },
       {
         name: "코은상어 초밥",
-        image: "/Img/cookingImg/코은상어 초밥.png",
+        image: "/cookingImg/코은상어 초밥.png",
         info: "코은상어의 살점으로 만든 초밥이다.",
         재료: "코은상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -1476,7 +1476,7 @@ const cookingData = [
       },
       {
         name: "키다리게 초밥",
-        image: "/Img/cookingImg/키다리게 초밥.png",
+        image: "/cookingImg/키다리게 초밥.png",
         info: "키다리게로 만든 초밥이다.",
         재료: "키다리게 1",
         "강화 단계": {
@@ -1494,7 +1494,7 @@ const cookingData = [
       },
       {
         name: "메가마우스상어 초밥",
-        image: "/Img/cookingImg/메가마우스상어 초밥.png",
+        image: "/cookingImg/메가마우스상어 초밥.png",
         info: "메가마우스상어의 살점으로 만든 초밥이다.",
         재료: "메가마우스상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -1513,7 +1513,7 @@ const cookingData = [
       },
       {
         name: "쿠키커터상어 초밥",
-        image: "/Img/cookingImg/쿠키커터상어 초밥.png",
+        image: "/cookingImg/쿠키커터상어 초밥.png",
         info: "쿠키커터상어로 만든 초밥이다.",
         재료: "쿠키커터상어 1",
         관련파티: "스톰 샤크 파티",
@@ -1532,7 +1532,7 @@ const cookingData = [
       },
       {
         name: "클리오네 초밥",
-        image: "/Img/cookingImg/클리오네 초밥.png",
+        image: "/cookingImg/클리오네 초밥.png",
         info: "클리오네로 만든 초밥이다.",
         재료: "클리오네 1",
         "강화 단계": {
@@ -1550,7 +1550,7 @@ const cookingData = [
       },
       {
         name: "점씬벵이 초밥",
-        image: "/Img/cookingImg/점씬벵이 초밥.png",
+        image: "/cookingImg/점씬벵이 초밥.png",
         info: "점씬벵이로 만든 초밥이다.",
         재료: "점씬벵이 1",
         "강화 단계": {
@@ -1568,7 +1568,7 @@ const cookingData = [
       },
       {
         name: "분홍꼼치 초밥",
-        image: "/Img/cookingImg/분홍꼼치 초밥.png",
+        image: "/cookingImg/분홍꼼치 초밥.png",
         info: "분홍꼼치로 만든 초밥이다.",
         재료: "분홍꼼치 1",
         "강화 단계": {
@@ -1586,7 +1586,7 @@ const cookingData = [
       },
       {
         name: "벤텐어 초밥",
-        image: "/Img/cookingImg/벤텐어 초밥.png",
+        image: "/cookingImg/벤텐어 초밥.png",
         info: "벤텐어로 만든 초밥이다.",
         재료: "벤텐어 1",
         "강화 단계": {
@@ -1604,7 +1604,7 @@ const cookingData = [
       },
       {
         name: "불뚝복 초밥",
-        image: "/Img/cookingImg/불뚝복 초밥.png",
+        image: "/cookingImg/불뚝복 초밥.png",
         info: "불뚝복으로 만든 초밥이다.",
         재료: "불뚝복 1",
         "강화 단계": {
@@ -1622,7 +1622,7 @@ const cookingData = [
       },
       {
         name: "감투빗해파리 초밥",
-        image: "/Img/cookingImg/감투빗해파리 초밥.png",
+        image: "/cookingImg/감투빗해파리 초밥.png",
         info: "감투빗해파리로 만든 초밥이다.",
         재료: "감투빗해파리 1",
         관련파티: "해파리 파티",
@@ -1641,7 +1641,7 @@ const cookingData = [
       },
       {
         name: "붉은배빗해파리 초밥",
-        image: "/Img/cookingImg/붉은배빗해파리 초밥.png",
+        image: "/cookingImg/붉은배빗해파리 초밥.png",
         info: "붉은배빗해파리로 만든 초밥이다.",
         재료: "붉은배빗해파리 1",
         관련파티: "해파리 파티",
@@ -1660,7 +1660,7 @@ const cookingData = [
       },
       {
         name: "금눈돔 초밥",
-        image: "/Img/cookingImg/금눈돔 초밥.png",
+        image: "/cookingImg/금눈돔 초밥.png",
         info: "금눈돔으로 만든 초밥이다.",
         재료: "금눈돔 1",
         "강화 단계": {
@@ -1678,7 +1678,7 @@ const cookingData = [
       },
       {
         name: "공작오징어 초밥",
-        image: "/Img/cookingImg/공작오징어 초밥.png",
+        image: "/cookingImg/공작오징어 초밥.png",
         info: "공작오징어로 만든 초밥이다.",
         재료: "공작오징어 1",
         "강화 단계": {
@@ -1696,7 +1696,7 @@ const cookingData = [
       },
       {
         name: "덤보문어 초밥",
-        image: "/Img/cookingImg/덤보문어 초밥.png",
+        image: "/cookingImg/덤보문어 초밥.png",
         info: "덤보문어로 만든 초밥이다.",
         재료: "덤보문어 1",
         "강화 단계": {
@@ -1714,7 +1714,7 @@ const cookingData = [
       },
       {
         name: "배럴아이 초밥",
-        image: "/Img/cookingImg/배럴아이 초밥.png",
+        image: "/cookingImg/배럴아이 초밥.png",
         info: "배럴아이로 만든 초밥이다.",
         재료: "배럴아이 1",
         "강화 단계": {
@@ -1732,7 +1732,7 @@ const cookingData = [
       },
       {
         name: "블롭피쉬 초밥",
-        image: "/Img/cookingImg/블롭피쉬 초밥.png",
+        image: "/cookingImg/블롭피쉬 초밥.png",
         info: "블롭피쉬로 만든 초밥이다.",
         재료: "블롭피쉬 1",
         "강화 단계": {
@@ -1750,7 +1750,7 @@ const cookingData = [
       },
       {
         name: "흡혈오징어 초밥",
-        image: "/Img/cookingImg/흡혈오징어 초밥.png",
+        image: "/cookingImg/흡혈오징어 초밥.png",
         info: "흡혈오징어로 만든 초밥이다.",
         재료: "흡혈오징어 1",
         "강화 단계": {
@@ -1768,7 +1768,7 @@ const cookingData = [
       },
       {
         name: "펠리칸장어 초밥",
-        image: "/Img/cookingImg/펠리칸장어 초밥.png",
+        image: "/cookingImg/펠리칸장어 초밥.png",
         info: "펠리칸장어로 만든 초밥이다.",
         재료: "펠리칸장어 1",
         "강화 단계": {
@@ -1786,7 +1786,7 @@ const cookingData = [
       },
       {
         name: "극지대구 초밥",
-        image: "/Img/cookingImg/극지대구 초밥.png",
+        image: "/cookingImg/극지대구 초밥.png",
         info: "극지대구로 만든 초밥이다.",
         재료: "극지대구 1",
         "강화 단계": {
@@ -1804,7 +1804,7 @@ const cookingData = [
       },
       {
         name: "남극꼼치 초밥",
-        image: "/Img/cookingImg/남극꼼치 초밥.png",
+        image: "/cookingImg/남극꼼치 초밥.png",
         info: "남극꼼치로 만든 초밥이다.",
         재료: "남극꼼치 1",
         "강화 단계": {
@@ -1822,7 +1822,7 @@ const cookingData = [
       },
       {
         name: "남극문어 초밥",
-        image: "/Img/cookingImg/남극문어 초밥.png",
+        image: "/cookingImg/남극문어 초밥.png",
         info: "남극문어로 만든 초밥이다.",
         재료: "남극문어 1",
         "강화 단계": {
@@ -1840,7 +1840,7 @@ const cookingData = [
       },
       {
         name: "그린란드상어 초밥",
-        image: "/Img/cookingImg/그린란드상어 초밥.png",
+        image: "/cookingImg/그린란드상어 초밥.png",
         info: "린란드상어의 살점으로 만든 초밥이다.",
         재료: "그린란드상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -1859,7 +1859,7 @@ const cookingData = [
       },
       {
         name: "북극등가시치 초밥",
-        image: "/Img/cookingImg/북극등가시치 초밥.png",
+        image: "/cookingImg/북극등가시치 초밥.png",
         info: "북극등가시치로 만든 초밥이다.",
         재료: "북극등가시치 1",
         "강화 단계": {
@@ -1877,7 +1877,7 @@ const cookingData = [
       },
       {
         name: "비악상어 초밥",
-        image: "/Img/cookingImg/비악상어 초밥.png",
+        image: "/cookingImg/비악상어 초밥.png",
         info: "비악상어의 살점으로 만든 초밥이다.",
         재료: "비악상어 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -1896,7 +1896,7 @@ const cookingData = [
       },
       {
         name: "아이스피쉬 초밥",
-        image: "/Img/cookingImg/아이스피쉬 초밥.png",
+        image: "/cookingImg/아이스피쉬 초밥.png",
         info: "아이스피쉬로 만든 초밥이다.",
         재료: "아이스피쉬 1",
         "강화 단계": {
@@ -1914,7 +1914,7 @@ const cookingData = [
       },
       {
         name: "열빙어 초밥",
-        image: "/Img/cookingImg/열빙어 초밥.png",
+        image: "/cookingImg/열빙어 초밥.png",
         info: "열빙어로 만든 초밥이다.",
         재료: "열빙어 1",
         "강화 단계": {
@@ -1932,7 +1932,7 @@ const cookingData = [
       },
       {
         name: "일각고래 초밥",
-        image: "/Img/cookingImg/일각고래 초밥.png",
+        image: "/cookingImg/일각고래 초밥.png",
         info: "일각고래의 살점으로 만든 초밥이다.",
         재료: "일각고래 살점 1",
         "강화 단계": {
@@ -1950,7 +1950,7 @@ const cookingData = [
       },
       {
         name: "해덕대구 초밥",
-        image: "/Img/cookingImg/해덕대구 초밥.png",
+        image: "/cookingImg/해덕대구 초밥.png",
         info: "해덕대구로 만든 초밥이다.",
         재료: "해덕대구 1",
         "강화 단계": {
@@ -1968,7 +1968,7 @@ const cookingData = [
       },
       {
         name: "땅가오리 초밥",
-        image: "/Img/cookingImg/땅가오리 초밥.png",
+        image: "/cookingImg/땅가오리 초밥.png",
         info: "땅가오리의 살점으로 만든 초밥이다.",
         재료: "땅가오리 살점 1",
         "강화 단계": {
@@ -1986,7 +1986,7 @@ const cookingData = [
       },
       {
         name: "북극 망원경 물고기 초밥",
-        image: "/Img/cookingImg/북극 망원경 물고기 초밥.png",
+        image: "/cookingImg/북극 망원경 물고기 초밥.png",
         info: "북극 망원경 물고기로 만든 초밥이다.",
         재료: "북극 망원경 물고기 1",
         "강화 단계": {
@@ -2004,7 +2004,7 @@ const cookingData = [
       },
       {
         name: "알래스카 명태 초밥",
-        image: "/Img/cookingImg/알래스카 명태 초밥.png",
+        image: "/cookingImg/알래스카 명태 초밥.png",
         info: "알래스카 명태로 만든 초밥이다.",
         재료: "알래스카 명태 1",
         "강화 단계": {
@@ -2022,7 +2022,7 @@ const cookingData = [
       },
       {
         name: "럼프피쉬 초밥",
-        image: "/Img/cookingImg/럼프피쉬 초밥.png",
+        image: "/cookingImg/럼프피쉬 초밥.png",
         info: "럼프피쉬로 만든 초밥이다.",
         재료: "럼프피쉬 1",
         "강화 단계": {
@@ -2040,7 +2040,7 @@ const cookingData = [
       },
       {
         name: "들창코가시장어 초밥",
-        image: "/Img/cookingImg/들창코가시장어 초밥.png",
+        image: "/cookingImg/들창코가시장어 초밥.png",
         info: "들창코가시장어로 만든 초밥이다.",
         재료: "들창코가시장어 1",
         "강화 단계": {
@@ -2058,7 +2058,7 @@ const cookingData = [
       },
       {
         name: "왑티아 초밥",
-        image: "/Img/cookingImg/왑티아 초밥.png",
+        image: "/cookingImg/왑티아 초밥.png",
         info: "왑티아로 만든 초밥이다.",
         재료: "왑티아 필덴시스 1",
         관련파티: "새우 파티",
@@ -2077,7 +2077,7 @@ const cookingData = [
       },
       {
         name: "피카이아 초밥",
-        image: "/Img/cookingImg/피카이아 초밥.png",
+        image: "/cookingImg/피카이아 초밥.png",
         info: "피카이아로 만든 초밥이다.",
         재료: "피카이아 1",
         "강화 단계": {
@@ -2095,7 +2095,7 @@ const cookingData = [
       },
       {
         name: "알레니프테루스 초밥",
-        image: "/Img/cookingImg/알레니프테루스 초밥.png",
+        image: "/cookingImg/알레니프테루스 초밥.png",
         info: "알레니프테루스로 만든 초밥이다.",
         재료: "알레니프테루스 1",
         "강화 단계": {
@@ -2113,7 +2113,7 @@ const cookingData = [
       },
       {
         name: "칭멘도스 초밥",
-        image: "/Img/cookingImg/칭멘도스 초밥.png",
+        image: "/cookingImg/칭멘도스 초밥.png",
         info: "칭멘도스로 만든 초밥이다.",
         재료: "칭멘도스 1",
         "강화 단계": {
@@ -2131,7 +2131,7 @@ const cookingData = [
       },
       {
         name: "팔카투스 초밥",
-        image: "/Img/cookingImg/팔카투스 초밥.png",
+        image: "/cookingImg/팔카투스 초밥.png",
         info: "팔카투스로 만든 초밥이다.",
         재료: "팔카투스 1",
         관련파티: "스톰 샤크 파티",
@@ -2150,7 +2150,7 @@ const cookingData = [
       },
       {
         name: "드레파나스피스 초밥",
-        image: "/Img/cookingImg/드레파나스피스 초밥.png",
+        image: "/cookingImg/드레파나스피스 초밥.png",
         info: "드레파나스피스의 살점으로 만든 초밥이다.",
         재료: "드레파나스피스 살점 1",
         "강화 단계": {
@@ -2168,7 +2168,7 @@ const cookingData = [
       },
       {
         name: "둔클레오스테우스 초밥",
-        image: "/Img/cookingImg/둔클레오스테우스 초밥.png",
+        image: "/cookingImg/둔클레오스테우스 초밥.png",
         info: "둔클레오스테우스의 살점으로 만든 초밥이다.",
         재료: "둔클레오스테우스 살점 1",
         관련파티: "스톰 샤크 파티",
@@ -2187,7 +2187,7 @@ const cookingData = [
       },
       {
         name: "메갈로그랍투스 초밥",
-        image: "/Img/cookingImg/메갈로그랍투스 초밥.png",
+        image: "/cookingImg/메갈로그랍투스 초밥.png",
         info: "메갈로그랍투스로 만든 초밥이다.",
         재료: "메갈로그랍투스 1",
         "강화 단계": {
@@ -2205,7 +2205,7 @@ const cookingData = [
       },
       {
         name: "제나칸투스 초밥",
-        image: "/Img/cookingImg/제나칸투스 초밥.png",
+        image: "/cookingImg/제나칸투스 초밥.png",
         info: "제나칸투스의 살점으로 만든 초밥이다.",
         재료: "제나칸투스 살점 1",
         "강화 단계": {
@@ -2223,7 +2223,7 @@ const cookingData = [
       },
       {
         name: "아노말로칼리스 새끼 초밥",
-        image: "/Img/cookingImg/아노말로칼리스 새끼 초밥.png",
+        image: "/cookingImg/아노말로칼리스 새끼 초밥.png",
         info: "아노말로칼리스 새끼의 살점으로 만든 초밥이다.",
         재료: "아노말로칼리스 1",
         "강화 단계": {
@@ -2236,7 +2236,7 @@ const cookingData = [
       },
       {
         name: "해마 꼬치구이",
-        image: "/Img/cookingImg/해마 꼬치구이.png",
+        image: "/cookingImg/해마 꼬치구이.png",
         info: "해마를 꼬치에 꿰어, 소금을 뿌려 구운 요리이다. 바삭한 식감에 소금맛이 배어있어, 간식이나 술안주로 일품이다.",
         재료: "해마 1",
         "강화 단계": {
@@ -2254,7 +2254,7 @@ const cookingData = [
       },
       {
         name: "해룡 주먹밥",
-        image: "/Img/cookingImg/해룡 주먹밥.png",
+        image: "/cookingImg/해룡 주먹밥.png",
         info: "삼각형으로 쥐어 만든 밥 사이에 살짝 구운 해룡을 채운 요리이다. 해룡의 바삭한 식감이 밥알과 잘 어우러진다.",
         재료: "해룡 1",
         "강화 단계": {

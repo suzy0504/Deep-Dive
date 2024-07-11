@@ -24,11 +24,13 @@ const SideBar = () => {
     });
   };
 
+  const { nickname } = JSON.parse(localStorage.getItem("userInfo"));
+
   return (
     <div className="fixed top-0 left-0 w-64 h-full bg-white text-main shadow-lg z-10 flex flex-col p-4">
       <div className="flex items-center mb-4 border-b-2 p-2">
         <PiUserCircle className="text-3xl mr-2" />
-        <p className="text-2xl font-bold">닉네임</p>
+        <p className="text-2xl font-bold">{nickname}</p>
       </div>
       <ul className="mb-2">
         <div
@@ -47,7 +49,9 @@ const SideBar = () => {
             <li className="pl-4">
               <Link href="/fish">물고기</Link>
             </li>
-            <li className="pl-4">요리</li>
+            <li className="pl-4">
+              <Link href="/food">요리</Link>
+            </li>
             <li className="pl-4">보스</li>
             <li className="pl-4">피쉬몬</li>
             <li className="pl-4">포토 스팟</li>
@@ -119,10 +123,12 @@ const SideBar = () => {
           )}
         </div>
       </ul>
-      <div className="border-t-2 p-2 mt-2 flex items-center text-gray-500">
+      <li className="border-t-2 p-2 mt-2 flex items-center text-gray-500">
         <IoSettingsSharp className="text-xl mr-2" />
-        <p className="font-bold">Settings</p>
-      </div>
+        <Link href="/settings" className="font-bold">
+          Settings
+        </Link>
+      </li>
     </div>
   );
 };

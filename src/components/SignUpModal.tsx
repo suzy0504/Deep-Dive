@@ -9,7 +9,7 @@ interface ModalProps {
   onClose: () => void;
 }
 
-const ProfileModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
+const SignUpModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   const [nickname, setNickname] = useState("");
@@ -87,4 +87,4 @@ const ProfileModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
   );
 };
 
-export default ProfileModal;
+export default SignUpModal;

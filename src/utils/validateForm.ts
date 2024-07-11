@@ -3,21 +3,10 @@ import Swal from "sweetalert2";
 export const validateForm = ({
   email,
   password,
-  nickname,
 }: {
   email: string;
   password: string;
-  nickname: string;
 }) => {
-  if (nickname !== null && nickname.trim() === "") {
-    Swal.fire({
-      title: "오류",
-      text: "닉네임을 입력하세요.",
-      icon: "error",
-      confirmButtonText: "확인",
-    });
-    return false;
-  }
   if (!email || !password) {
     Swal.fire({
       title: "오류",

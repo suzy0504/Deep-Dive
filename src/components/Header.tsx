@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Gugi } from "next/font/google";
 import { IoIosMenu } from "react-icons/io";
+import { PiUserCircle } from "react-icons/pi";
 import SideBar from "./SideBar";
 
 const gugi = Gugi({
@@ -44,6 +45,7 @@ const Header = () => {
         <p className={`${gugi.className} flex text-4xl text-white`}>
           Deep Dive
         </p>
+        <PiUserCircle className="text-white text-5xl absolute right-3 ml-2 cursor-pointer hover:text-point" />
       </div>
       {isSideBarVisible && (
         <div ref={sideBarRef}>

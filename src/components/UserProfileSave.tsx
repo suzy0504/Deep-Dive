@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import ProfileModal from "./ProfileModal";
 import { PiUserCircle } from "react-icons/pi";
+import SignUpModal from "./SignUpModal";
 
 const UserProfileSave: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -30,7 +30,7 @@ const UserProfileSave: React.FC = () => {
             <p>아무개</p>
           </div>
         </div>
-        <ProfileModal isOpen={isModalOpen} onClose={handleCloseModal} />
+        <SignUpModal isOpen={isModalOpen} onClose={handleCloseModal} />
       </div>
     </div>
   );
