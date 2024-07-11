@@ -6,6 +6,7 @@ export const validateForm = ({
 }: {
   email: string;
   password: string;
+  nickname: string;
 }) => {
   if (!email || !password) {
     Swal.fire({
